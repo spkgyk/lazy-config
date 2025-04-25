@@ -8,6 +8,8 @@ return {
                     hidden = true,
                     -- show git-ignored files:
                     ignored = true,
+                    -- dont show .git or .git/**
+                    exclude = { ".git", ".git/**", "__pycache__", "__pycache__/**" },
                 },
             },
         },
