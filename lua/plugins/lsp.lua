@@ -9,10 +9,6 @@ return {
                         disableOrganizeImports = true,
                         analysis = {
                             diagnosticMode = "workspace",
-                            -- typeCheckingMode = "basic",
-                            diagnosticSeverityOverrides = {
-                                reportPrivateImportUsage = false,
-                            },
                         },
                     },
                 },
